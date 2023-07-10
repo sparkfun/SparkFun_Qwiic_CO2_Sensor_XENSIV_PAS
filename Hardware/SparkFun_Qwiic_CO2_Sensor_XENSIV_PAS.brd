@@ -209,8 +209,9 @@
 <text x="33.02" y="38.1" size="1.778" layer="51" font="vector">Thickness: 0.063 in</text>
 <text x="33.02" y="35.56" size="1.778" layer="51" font="vector">Finish Lead-Free HASL</text>
 <text x="33.02" y="33.02" size="1.778" layer="51" font="vector">Material: TG155</text>
-<text x="33.02" y="30.48" size="1.778" layer="51" font="vector">Solder Mask: Black</text>
+<text x="33.02" y="30.48" size="1.778" layer="51" font="vector">Solder Mask: Red</text>
 <wire x1="21.971" y1="38.481" x2="21.971" y2="35.433" width="0.254" layer="21"/>
+<text x="33.02" y="27.94" size="1.778" layer="51" font="vector">Layers: 2</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
