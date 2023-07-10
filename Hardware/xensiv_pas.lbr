@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -256,6 +256,25 @@
 <rectangle x1="-1.8" y1="-3.8" x2="-1.1" y2="-0.2" layer="39"/>
 <rectangle x1="5.4" y1="-2.7" x2="6.6" y2="-1.5" layer="39"/>
 <rectangle x1="5.4" y1="1.5" x2="6.6" y2="2.7" layer="39"/>
+<wire x1="-0.1" y1="-4.275" x2="-0.1" y2="4.275" width="0.1" layer="51"/>
+<wire x1="-0.1" y1="4.275" x2="-0.975" y2="5.15" width="0.1" layer="51" curve="90"/>
+<wire x1="-0.975" y1="5.15" x2="-5.025" y2="5.15" width="0.1" layer="51"/>
+<wire x1="-5.025" y1="5.15" x2="-5.9" y2="4.275" width="0.1" layer="51" curve="90"/>
+<wire x1="-5.9" y1="4.275" x2="-5.9" y2="-4.275" width="0.1" layer="51"/>
+<wire x1="-5.9" y1="-4.275" x2="-5.025" y2="-5.15" width="0.1" layer="51" curve="90"/>
+<wire x1="-5.025" y1="-5.15" x2="-0.975" y2="-5.15" width="0.1" layer="51"/>
+<wire x1="-0.975" y1="-5.15" x2="-0.1" y2="-4.275" width="0.1" layer="51" curve="90"/>
+<wire x1="-1" y1="0" x2="-1" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-1" y1="4.25" x2="-5" y2="4.25" width="0.1" layer="51"/>
+<wire x1="-1" y1="0" x2="-5" y2="0" width="0.1" layer="51"/>
+<wire x1="-5" y1="4.25" x2="-5" y2="0" width="0.1" layer="51"/>
+<circle x="-3" y="2.125" radius="0.2" width="0" layer="51"/>
+<circle x="-2.8" y="-2.575" radius="2" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.4" x2="1.6" y2="-4.4" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.4" x2="5.6" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="5.6" y1="-0.4" x2="5.6" y2="-4.4" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-4.4" x2="5.6" y2="-4.4" width="0.1" layer="51"/>
+<circle x="3.6" y="-2.4" radius="0.2" width="0" layer="51"/>
 </package>
 <package name="SOT95P280X145-6M" urn="urn:adsk.eagle:footprint:40881592/1">
 <description>6-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.60 X 1.45 mm body
