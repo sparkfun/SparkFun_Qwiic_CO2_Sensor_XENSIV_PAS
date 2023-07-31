@@ -22159,7 +22159,7 @@ smallest PCB area. Switching frequency is internally set to 1.6 MHz, allowing th
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-"/>
+<attribute name="PROD_ID" value="VREG-19362"/>
 <attribute name="VALUE" value="LMR62421"/>
 </technology>
 </technologies>
@@ -27305,7 +27305,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="">
 <attribute name="DESIGNER" value="Alex Brudner"/>
-<attribute name="REV" value="v01"/>
+<attribute name="REV" value="v10"/>
 </part>
 <part name="U1" library="xensiv_pas" deviceset="PASCO2V01" device="" value="PASCO2V01BUMA1"/>
 <part name="L1" library="xensiv_pas" deviceset="10UH" device="" value="10uH"/>
@@ -27615,7 +27615,7 @@ Internal PUR.</text>
 <attribute name="VALUE" x="156.464" y="124.46" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="D2" gate="G$1" x="154.94" y="114.3" smashed="yes">
-<attribute name="NAME" x="151.511" y="109.728" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="157.988" y="112.649" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="156.845" y="109.728" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND17" gate="1" x="154.94" y="104.14" smashed="yes">
