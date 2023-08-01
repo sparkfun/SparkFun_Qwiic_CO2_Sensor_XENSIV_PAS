@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
@@ -7668,7 +7668,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="25.527" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="22.098" y="33.02" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="22.86" y="18.288" smashed="yes"/>
+<element name="U$1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="12.7" y="7.62" smashed="yes"/>
 <element name="U$4" library="output" package="#GND_#0" value="" x="24.13" y="29.21" smashed="yes"/>
 <element name="U$5" library="output" package="#GND_#0" value="" x="1.27" y="29.21" smashed="yes" rot="MR0"/>
 <element name="U$6" library="output" package="#_TX#0" value="" x="1.27" y="26.67" smashed="yes"/>

@@ -7938,7 +7938,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="25.527" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="22.098" y="33.02" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="22.86" y="18.288" smashed="yes"/>
+<element name="U$1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="12.7" y="7.62" smashed="yes"/>
 <element name="U$4" library="output" package="#GND_#0" value="" x="24.13" y="29.21" smashed="yes"/>
 <element name="U$5" library="output" package="#GND_#0" value="" x="1.27" y="29.21" smashed="yes" rot="MR0"/>
 <element name="U$6" library="output" package="#_TX#0" value="" x="1.27" y="26.67" smashed="yes"/>
@@ -8135,7 +8135,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="51.435" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="48.006" y="33.02" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$23" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="48.768" y="18.288" smashed="yes"/>
+<element name="U$23" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="38.608" y="7.62" smashed="yes"/>
 <element name="U$30" library="output" package="#GND_#0" value="" x="50.038" y="29.21" smashed="yes"/>
 <element name="U$40" library="output" package="#GND_#0" value="" x="27.178" y="29.21" smashed="yes" rot="MR0"/>
 <element name="U$41" library="output" package="#_TX#0" value="" x="27.178" y="26.67" smashed="yes"/>
@@ -8332,7 +8332,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="77.343" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="73.914" y="33.02" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$75" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="74.676" y="18.288" smashed="yes"/>
+<element name="U$75" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="64.516" y="7.62" smashed="yes"/>
 <element name="U$76" library="output" package="#GND_#0" value="" x="75.946" y="29.21" smashed="yes"/>
 <element name="U$77" library="output" package="#GND_#0" value="" x="53.086" y="29.21" smashed="yes" rot="MR0"/>
 <element name="U$78" library="output" package="#_TX#0" value="" x="53.086" y="26.67" smashed="yes"/>
@@ -8529,7 +8529,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="103.251" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="99.822" y="33.02" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$112" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="100.584" y="18.288" smashed="yes"/>
+<element name="U$112" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="90.424" y="7.62" smashed="yes"/>
 <element name="U$113" library="output" package="#GND_#0" value="" x="101.854" y="29.21" smashed="yes"/>
 <element name="U$114" library="output" package="#GND_#0" value="" x="78.994" y="29.21" smashed="yes" rot="MR0"/>
 <element name="U$115" library="output" package="#_TX#0" value="" x="78.994" y="26.67" smashed="yes"/>
@@ -8726,7 +8726,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="129.159" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="125.73" y="33.02" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$149" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="126.492" y="18.288" smashed="yes"/>
+<element name="U$149" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="116.332" y="7.62" smashed="yes"/>
 <element name="U$150" library="output" package="#GND_#0" value="" x="127.762" y="29.21" smashed="yes"/>
 <element name="U$151" library="output" package="#GND_#0" value="" x="104.902" y="29.21" smashed="yes" rot="MR0"/>
 <element name="U$152" library="output" package="#_TX#0" value="" x="104.902" y="26.67" smashed="yes"/>
@@ -8923,7 +8923,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="155.067" y="33.02" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="151.638" y="33.02" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$186" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="152.4" y="18.288" smashed="yes"/>
+<element name="U$186" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="142.24" y="7.62" smashed="yes"/>
 <element name="U$187" library="output" package="#GND_#0" value="" x="153.67" y="29.21" smashed="yes"/>
 <element name="U$188" library="output" package="#GND_#0" value="" x="130.81" y="29.21" smashed="yes" rot="MR0"/>
 <element name="U$189" library="output" package="#_TX#0" value="" x="130.81" y="26.67" smashed="yes"/>
@@ -9120,7 +9120,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="25.527" y="74.168" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="22.098" y="74.168" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$223" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="22.86" y="59.436" smashed="yes"/>
+<element name="U$223" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="12.7" y="48.768" smashed="yes"/>
 <element name="U$224" library="output" package="#GND_#0" value="" x="24.13" y="70.358" smashed="yes"/>
 <element name="U$225" library="output" package="#GND_#0" value="" x="1.27" y="70.358" smashed="yes" rot="MR0"/>
 <element name="U$226" library="output" package="#_TX#0" value="" x="1.27" y="67.818" smashed="yes"/>
@@ -9317,7 +9317,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="51.435" y="74.168" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="48.006" y="74.168" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$260" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="48.768" y="59.436" smashed="yes"/>
+<element name="U$260" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="38.608" y="48.768" smashed="yes"/>
 <element name="U$261" library="output" package="#GND_#0" value="" x="50.038" y="70.358" smashed="yes"/>
 <element name="U$262" library="output" package="#GND_#0" value="" x="27.178" y="70.358" smashed="yes" rot="MR0"/>
 <element name="U$263" library="output" package="#_TX#0" value="" x="27.178" y="67.818" smashed="yes"/>
@@ -9514,7 +9514,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="77.343" y="74.168" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="73.914" y="74.168" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$297" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="74.676" y="59.436" smashed="yes"/>
+<element name="U$297" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="64.516" y="48.768" smashed="yes"/>
 <element name="U$298" library="output" package="#GND_#0" value="" x="75.946" y="70.358" smashed="yes"/>
 <element name="U$299" library="output" package="#GND_#0" value="" x="53.086" y="70.358" smashed="yes" rot="MR0"/>
 <element name="U$300" library="output" package="#_TX#0" value="" x="53.086" y="67.818" smashed="yes"/>
@@ -9711,7 +9711,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="103.251" y="74.168" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="99.822" y="74.168" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$334" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="100.584" y="59.436" smashed="yes"/>
+<element name="U$334" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="90.424" y="48.768" smashed="yes"/>
 <element name="U$335" library="output" package="#GND_#0" value="" x="101.854" y="70.358" smashed="yes"/>
 <element name="U$336" library="output" package="#GND_#0" value="" x="78.994" y="70.358" smashed="yes" rot="MR0"/>
 <element name="U$337" library="output" package="#_TX#0" value="" x="78.994" y="67.818" smashed="yes"/>
@@ -9908,7 +9908,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="129.159" y="74.168" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="125.73" y="74.168" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$371" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="126.492" y="59.436" smashed="yes"/>
+<element name="U$371" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="116.332" y="48.768" smashed="yes"/>
 <element name="U$372" library="output" package="#GND_#0" value="" x="127.762" y="70.358" smashed="yes"/>
 <element name="U$373" library="output" package="#GND_#0" value="" x="104.902" y="70.358" smashed="yes" rot="MR0"/>
 <element name="U$374" library="output" package="#_TX#0" value="" x="104.902" y="67.818" smashed="yes"/>
@@ -10105,7 +10105,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="155.067" y="74.168" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="151.638" y="74.168" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="U$408" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="152.4" y="59.436" smashed="yes"/>
+<element name="U$408" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="142.24" y="48.768" smashed="yes"/>
 <element name="U$409" library="output" package="#GND_#0" value="" x="153.67" y="70.358" smashed="yes"/>
 <element name="U$410" library="output" package="#GND_#0" value="" x="130.81" y="70.358" smashed="yes" rot="MR0"/>
 <element name="U$411" library="output" package="#_TX#0" value="" x="130.81" y="67.818" smashed="yes"/>
