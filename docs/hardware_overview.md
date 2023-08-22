@@ -78,7 +78,7 @@ We designed this board to set the PAS CO2 to communicate by I<sup>2</sup>C by de
 
 The board routes the PAS CO2's I<sup>2</sup>C interface to a pair of Qwiic connectors as well as 0.1"-spaced plated through-hole (PTH) headers. This header also includes the PAS CO2's Interrupt pin, the LMR62421 boost regulator's Enable pin, as well as connections to <b>3.3V</b> and <b>GND</b>. The PAS CO2's unshifted 7-bit I<sup>2</sup>C address is <b>0x28</b>.
 
-The Interrupt pin can function as a standard hardware interrupt when the sensor measures CO<sub>2</sub> ppm above a defined alarm threshold but can also be configured to act as an early measurement start notification. In this mode, the interrupt pin enters an active state (set to either active-high or active-low) roughly one second before a measurement period and remains active until the measurement completes. The design of the board has both this pin and the boost regulator's enable pin next to each other so users can tie them to each other to turn on the boost regulator just before measurement occurs to help conserve power.
+The Interrupt pin can function as a standard hardware interrupt for alarm thresholds, data ready, and sensor busy statuses but also is configurable to act as an early measurement start notification. In this mode, the interrupt pin enters an active state (set to either active-high or active-low) roughly one second before a measurement period and remains active until the measurement completes. The design of the board has both this pin and the boost regulator's enable pin next to each other so users can tie them to each other to turn on the boost regulator just before measurement occurs to help conserve power.
 
 ### UART
 
