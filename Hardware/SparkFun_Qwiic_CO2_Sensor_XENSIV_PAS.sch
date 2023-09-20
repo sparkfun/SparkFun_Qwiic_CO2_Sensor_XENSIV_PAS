@@ -22076,13 +22076,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
 <wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
 </symbol>
-<symbol name="LMR62421">
+<symbol name="AP3012">
 <wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
 <wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
 <pin name="VIN" x="-12.7" y="10.16" visible="pin" length="short"/>
-<pin name="EN" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="!SHDN!" x="-12.7" y="-5.08" visible="pin" length="short"/>
 <pin name="SW" x="12.7" y="10.16" visible="pin" length="short" rot="R180"/>
 <pin name="FB" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
 <pin name="GND" x="-12.7" y="-10.16" visible="pin" length="short"/>
@@ -22138,17 +22138,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="LMR62421" prefix="U" uservalue="yes">
-<description>The LMR62421 is an easy-to-use, space-efficient
-2.1A low-side switch regulator ideal for Boost and SEPIC DC-DC regulation. It provides all the active functions to provide local DC/DC conversion with fast-transient response and accurate regulation in the
-smallest PCB area. Switching frequency is internally set to 1.6 MHz, allowing the use of extremely small surface mount inductor and chip capacitors while providing efficiencies near 90%</description>
+<deviceset name="AP3012" prefix="U" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="LMR62421" x="0" y="0"/>
+<gate name="G$1" symbol="AP3012" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT95P280X145-5M">
 <connects>
-<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="!SHDN!" pad="4"/>
 <connect gate="G$1" pin="FB" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="SW" pad="1"/>
@@ -22159,8 +22156,8 @@ smallest PCB area. Switching frequency is internally set to 1.6 MHz, allowing th
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="VREG-19362"/>
-<attribute name="VALUE" value="LMR62421"/>
+<attribute name="PROD_ID" value="VREG-13911"/>
+<attribute name="VALUE" value="AP3012"/>
 </technology>
 </technologies>
 </device>
@@ -24792,7 +24789,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 <package name="PANASONIC_D">
-<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E&lt;/b&gt;</description>
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Series Package D8&lt;/b&gt;</description>
 <wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="51"/>
 <wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="51"/>
 <wire x1="3.25" y1="1.55" x2="3.25" y2="-1.55" width="0.1016" layer="51"/>
@@ -25129,7 +25126,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-10547" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -25597,13 +25596,61 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="1MOHM" prefix="R">
-<description>&lt;h3&gt;1MΩ resistor&lt;/h3&gt;
+<deviceset name="100KOHM" prefix="R">
+<description>&lt;h3&gt;100kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
+<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
 <device name="-VERT-1/4W-5%" package="AXIAL-0.1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
@@ -25611,8 +25658,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-09329"/>
-<attribute name="VALUE" value="1M"/>
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
 </technology>
 </technologies>
 </device>
@@ -25623,8 +25670,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-09329"/>
-<attribute name="VALUE" value="1M"/>
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
 </technology>
 </technologies>
 </device>
@@ -25635,8 +25682,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-09329"/>
-<attribute name="VALUE" value="1M"/>
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
 </technology>
 </technologies>
 </device>
@@ -25647,92 +25694,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-09329"/>
-<attribute name="VALUE" value="1M"/>
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
 </technology>
 </technologies>
 </device>
-<device name="-0603-1/4W-5%" package="0603">
+<device name="-0603-1/10W-1%" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-07868"/>
-<attribute name="VALUE" value="1M"/>
+<attribute name="PROD_ID" value="RES-07828"/>
+<attribute name="VALUE" value="100k"/>
 </technology>
 </technologies>
 </device>
-<device name="-VERT-1/6W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09559"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/6W-5%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09559"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ-1/6W-5%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09559"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/6W-5%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09559"/>
-<attribute name="VALUE" value="1M"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-1/16W-5%" package="0402">
+<device name="-0402-1/16W-1%" package="0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-15185"/>
-<attribute name="VALUE" value="1M"/>
+<attribute name="PROD_ID" value="RES-13495"/>
+<attribute name="VALUE" value="100K"/>
 </technology>
 </technologies>
 </device>
-<device name="-0402T-1/16W-5%" package="0402-TIGHT">
+<device name="-0402T-1/16W-1%" package="0402-TIGHT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-15185"/>
-<attribute name="VALUE" value="1M"/>
+<attribute name="PROD_ID" value="RES-13495" constant="no"/>
+<attribute name="VALUE" value="100k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -27311,14 +27310,16 @@ Standard 0402 sized pads with cathode pin indicator.
 <part name="L1" library="xensiv_pas" deviceset="10UH" device="" value="10uH"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RA"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RA"/>
-<part name="U2" library="xensiv_pas" deviceset="LMR62421" device="" package3d_urn="urn:adsk.eagle:package:40937508/1" value="LMR62421"/>
+<part name="U2" library="xensiv_pas" deviceset="AP3012" device="" package3d_urn="urn:adsk.eagle:package:40937508/1" value="AP3012">
+<attribute name="PN" value="AP3012"/>
+</part>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF" device="-0805-25V-10%" value="10uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-35V-(20%)" value="4.7uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="470PF" device="-0603-50V-5%" value="470pF"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="47KOHM" device="-0603-1/10W-1%" value="47k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="5.62KOHM" device="-0603-1/10W-1%" value="5.62k"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="0.5A/40V/420mV"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1M"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -27400,8 +27401,8 @@ over UART</text>
 <text x="154.94" y="172.72" size="2.54" layer="94" font="vector" align="bottom-center">Power LED</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="66.04" width="0.2032" layer="97" style="longdash"/>
 <text x="137.16" y="91.44" size="1.778" layer="97" font="vector">Cut PWR to remove LED power.</text>
-<text x="33.02" y="2.54" size="1.778" layer="97" font="vector">Input: 2.7V - 5.5V
-Output: 12V @ 350mA</text>
+<text x="33.02" y="2.54" size="1.778" layer="97" font="vector">Input: 2.6 - 16 V
+Output: 12V @ 150 mA</text>
 <text x="48.26" y="96.52" size="1.778" layer="97" font="vector">7-bit unshifted address: 0x28</text>
 <text x="53.34" y="81.28" size="1.778" layer="97" font="vector">Power requirements:
 3.3V - 10mA peak, 6.1mA average
@@ -27442,7 +27443,7 @@ Internal PUR.</text>
 </instance>
 <instance part="U2" gate="G$1" x="45.72" y="27.94" smashed="yes">
 <attribute name="NAME" x="35.56" y="43.688" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="35.56" y="10.16" size="1.778" layer="96" font="vector"/>
+<attribute name="PN" x="35.56" y="10.16" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C1" gate="G$1" x="20.32" y="33.02" smashed="yes">
 <attribute name="NAME" x="16.256" y="35.179" size="1.778" layer="95" font="vector" rot="R180"/>
@@ -27671,7 +27672,7 @@ Internal PUR.</text>
 <net name="EN" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="U2" gate="G$1" pin="EN"/>
+<pinref part="U2" gate="G$1" pin="!SHDN!"/>
 <wire x1="30.48" y1="25.4" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
