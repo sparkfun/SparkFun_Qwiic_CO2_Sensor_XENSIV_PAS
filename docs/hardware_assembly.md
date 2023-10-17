@@ -8,7 +8,9 @@ Now that we're familiar with the PAS CO2 sensor and other hardware on this break
 
 SparkFun's Qwiic system makes assembling a circuit a breeze. Simply plug the breakout into your chosen microcontroller with a Qwiic cable. After assembling your circuit, it should look similar to the photo below:
 
-
+<figure markdown>
+[![Simple Qwiic circuit assembled with IoT RedBoard.](./assets/images/Qwiic_PAS_CO2_Sensor-Basic_Assembly.jpg){  width="400"}](./assets/images/Qwiic_PAS_CO2_Sensor-Basic_Assembly.jpg "Click to enlarge")
+</figure>
 
 ## Soldered Assembly
 
@@ -28,8 +30,13 @@ Those who prefer to use either the UART or PWM interfaces or the other pins brok
 
 ### Boost Regulator Interrupt Assembly
 
-The second example in the Examples section demonstrates how to use the PAS CO2's Interrupt pin as an early measurement signal to control the boost regulator's power during measurement periods. If you want to follow along with that example you'll need to tie the INT PTH pin and EN PTH pin together using a jumper like the one shown below or through some other method (wire, breadboard, etc.). The assembly below also includes a PTH LED and resistor as a visual indicator but is not necessary for normal applications.
+The Early Measurement example in the Examples section demonstrates how to use the PAS CO2's Interrupt pin as an early measurement signal to control the boost regulator's power during measurement periods. If you want to follow along with that example you'll need to tie the INT PTH pin and EN PTH pin together. We recommend a set of [headers](https://www.sparkfun.com/products/12693) to these PTHs and bridge the EN and INT pins together using a jumper like [this](https://www.sparkfun.com/products/9044). You can also create a temporary connection between these pins with some alligator clips or through some wiring on a breadboard.
 
+Next, connect the INT pin on the PAS CO<sub>2</sub> sensor breakout to an [interrupt capable pin]() on your development board. The example assumes the use of an ESP32 development board and sets pin 13 so adjust the wiring and code if necessary. With everything wired up on a [breadboard](), the circuit should look something similar to the photo below:
+
+<figure markdown>
+[![Early measurement circuit assembly on a breadboard.](./assets/images/Qwiic_PAS_CO2_Sensor-Interrupt_Assembly.jpg){  width="400"}](./assets/images/Qwiic_PAS_CO2_Sensor-Interrupt_Assembly.jpg "Click to enlarge")
+</figure>
 
 
 ## Installation Recommendations

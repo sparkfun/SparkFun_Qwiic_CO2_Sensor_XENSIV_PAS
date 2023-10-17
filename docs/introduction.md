@@ -15,15 +15,15 @@ To follow along with this guide you will need a microcontroller to communicate w
 
 <div class="grid cards" markdown>
 
--   <a href="https://www.sparkfun.com/products/20168">
+-   <a href="https://www.sparkfun.com/products/19177">
 
     <figure markdown>
-    ![SparkFun Thing Plus - ESP32 WROOM (USB-C)](https://cdn.sparkfun.com//assets/parts/1/9/9/6/8/20168Diagonal.jpg)
+    ![SparkFun IoT RedBoard - ESP32 Development Board](https://cdn.sparkfun.com//assets/parts/1/8/8/0/0/ESP32_03.jpg)
     </figure>
     </a>
     ---
-    <a href="https://www.sparkfun.com/products/20168">
-    **SparkFun Thing Plus - ESP32 WROOM (USB-C)**<br>
+    <a href="https://www.sparkfun.com/products/19177">
+    **SparkFun IoT RedBoard - ESP32 Development Board**<br>
     DEV-20168
     </a>
 
@@ -51,15 +51,16 @@ To follow along with this guide you will need a microcontroller to communicate w
     DEV-18158
     </a>
 
--   <a href="https://www.sparkfun.com/products/15444">
+-   <a href="https://www.sparkfun.com/products/20168">
 
     <figure markdown>
-    ![SparkFun RedBoard Artemis](https://cdn.sparkfun.com//assets/parts/1/4/0/1/9/15444-SparkFun_RedBoard_Artemis-01.jpg)
+    ![SparkFun Thing Plus - ESP32 WROOM (USB-C)](https://cdn.sparkfun.com//assets/parts/1/9/9/6/8/20168Diagonal.jpg)
     </figure>
     </a>
     ---
-    <a href="https://www.sparkfun.com/products/15444">**SparkFun RedBoard Artemis**<br>
-    DEV-15444
+    <a href="https://www.sparkfun.com/products/20168">
+    **SparkFun Thing Plus - ESP32 WROOM (USB-C)**<br>
+    DEV-20168
     </a>
 </div>
 
@@ -170,7 +171,7 @@ You will also need at least one Qwiic cable to connect your breakout to your mic
 
 ## Optional Materials
 
-If you prefer a soldered connection or want to modify the solder jumpers on this board, you may need some of the products listed below:
+If you prefer a soldered connection for I<sup>2</sup>C, prefer to use either the UART or PWM interfaces, or want to follow along with the Early Measurments Example later in this guide, you may need some of the products listed below:
 
 <div class="grid cards" markdown align="center">
 

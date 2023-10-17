@@ -18,7 +18,7 @@
  *  Feel like supporting open source hardware?
  *  Buy a board from SparkFun!
  *  SparkFun Photoacoustic Spectroscopy CO2 Sensor - PASCO2V01 (Qwiic) (SEN-22956) https://www.sparkfun.com/products/22956
- *  SparkFun Thing Plus - ESP32 WROOM (USB-C) (WRL-20168) https://www.sparkfun.com/products/20168
+ *  SparkFun IoT RedBoard - ESP32 Development Board (WRL-19177) https://www.sparkfun.com/products/19177
  *
  *  Hardware connections:
  *  Connect the qwiic connector between the ESP32 Thing Plus C and the Qwiic PASCO2V01.
@@ -31,7 +31,7 @@
 #include <Arduino.h>
 #include <pas-co2-ino.hpp> // http://librarymanager/All#XENSIV_PAS_CO2
 
-uint8_t intPin = 12; // ESP32 Thing Plus C pin, change for your hardware.
+uint8_t intPin = 13; // ESP32 Thing Plus C pin, change for your hardware.
 
 #define I2C_FREQ_HZ 400000
 #define PERIODIC_MEAS_INTERVAL_IN_SECONDS 10
