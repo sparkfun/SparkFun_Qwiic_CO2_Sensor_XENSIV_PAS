@@ -14,9 +14,10 @@ The first example demonstrates how to initialize the sensor over I<sup>2</sup>C 
 
 The second example follows the assembly step in the Hardware Assembly section tying the PAS CO2's INT pin to the boost regulator's EN pin to control power for the regulator during measurements. This is a custom example we wrote so you'll need to get it from the [GitHub Repository](https://github.com/sparkfun/SparkFun_Qwiic_CO2_Sensor_XENSIV_PAS) or by copying the code below into a blank sketch:
 
-???
+??? "Early Measurement Example"
+
     ```
-    <!-- --8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_Qwiic_CO2_Sensor_XENSIV_PAS/main/Firmware/Examples/Example01_EarlyMeasurementStartInterrupt/Example01_EarlyMeasurementStartInterrupt.ino" -->
+     --8<-- "https://raw.githubusercontent.com/sparkfun/SparkFun_Qwiic_CO2_Sensor_XENSIV_PAS/main/Firmware/Examples/Example01_EarlyMeasurementStartInterrupt/Example01_EarlyMeasurementStartInterrupt.ino"
     ```
 
 Select your board and port and upload the example. After the uploade completes, open the serial terminal with the baud set to <b>115200</b> and you should see a printout similar to the one below with CO<sub>2</sub> measurements printing every ten seconds:
