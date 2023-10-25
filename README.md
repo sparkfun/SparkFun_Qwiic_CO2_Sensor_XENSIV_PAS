@@ -1,7 +1,7 @@
 SparkFun Photoacoustic Spectroscopy CO2 Sensor - PASCO2V01 (Qwiic) 
 ========================================
 
-[![SparkFun Photoacoustic Spectroscopy CO2 Sensor - PASCO2V01 (Qwiic)](https://cdn.sparkfun.com//assets/parts/2/3/1/8/1/22956_Photoacoustic_CO2_Sensor_Feature.jpg)](https://www.sparkfun.com/products/22956)
+[![SparkFun Photoacoustic Spectroscopy CO2 Sensor - PASCO2V01 (Qwiic)](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/1/8/1/22956_Photoacoustic_CO2_Sensor_Feature.jpg)](https://www.sparkfun.com/products/22956)
 
 [*SparkFun Photoacoustic Spectroscopy CO2 Sensor - PASCO2V01 (Qwiic) (SEN-22956)*](https://www.sparkfun.com/products/22956)
 
