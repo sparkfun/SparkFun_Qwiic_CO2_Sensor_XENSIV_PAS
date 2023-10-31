@@ -114,6 +114,7 @@ The breakout has four solder jumpers labeled <b>PWR</b>, <b>PSEL</b>, <b>PWM</b>
 * <b>PWR</b>: The PWR jumper completes the Power LED circuit. Open it to turn off the power LED to reduce the current draw of the board. 
 * <b>PSEL</b>: The PSEL jumper is a three-way jumper that sets whether the PAS CO2 outputs over I<sup>2</sup>C (Default) or UART (Alternate). By default, the jumper pulls the PSEL line to Ground and enables the I<sup>2</sup>C interface indicated by the small "I" on the jumper. Severing the trace between the "I" pad and center pad and then connecting the center pad to the "U" pad switches the PAS CO2 to communicate over UART.
 * <b>PWM</b>: The PWM jumper controls the PWM output through the PWM disable input pin. This jumper is OPEN by default to disable PWM through the internal pullup resistor. Close it to tie the PWM disable pin to ground and enable PWM output.
+* <b>I</sup>2</sup>C: Pulls the SDA/SCL lines to <b>3.3V</b> through a pair of 2.2k&ohm; resistors. Open the jumper completely to disable pullups on these lines if needed.
 
 ## Board Dimensions
 
