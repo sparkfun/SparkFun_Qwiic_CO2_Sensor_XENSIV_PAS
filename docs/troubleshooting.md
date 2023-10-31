@@ -9,6 +9,14 @@ For ideal measurements, Infineon has several recommendations for installing the 
 * Avoid placing the sensor in direct sunlight.
 * Prevent any condensation/water contact with the sensor.
 
+## Calibration Procedure
+
+The PASCO2V01 sensors require a week long calibration period, measuring every 10 seconds. During that period, the sensor *must* be outside for at least 30 minutes while taking measurements. Refer to the [Automatic baseline offset correction (ABOC) and forced compensation scheme (FCS)](./assets/component_documentation/Infineon-AN_FCS_ABOC_XENSIV_PASCO2_2-ApplicationNotes-v01_04-EN.pdf) application note for complete information about the calibration process. The graph below shows three sensors data outputs merge together during our calibration testing:
+
+<figure markdown>
+[![Sensor calibration graph.](./assets/images/Calibration_Graph.png){  width="400"}](./assets/images/Calibration_Graph.png "Click to enlarge")
+</figure>
+
 ## General Troubleshooting
 
 !!! warning "Need Help?"

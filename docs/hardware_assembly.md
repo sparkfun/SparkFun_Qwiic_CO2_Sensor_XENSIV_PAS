@@ -38,10 +38,17 @@ Next, connect the INT pin on the PAS CO<sub>2</sub> sensor breakout to an [inter
 [![Early measurement circuit assembly on a breadboard.](./assets/images/Qwiic_PAS_CO2_Sensor-Interrupt_Assembly.jpg){  width="400"}](./assets/images/Qwiic_PAS_CO2_Sensor-Interrupt_Assembly.jpg "Click to enlarge")
 </figure>
 
+## Calibration Procedure
+
+The PASCO2V01 sensors require a week long calibration period, measuring every 10 seconds. During that period, the sensor *must* be outside for at least 30 minutes while taking measurements. Refer to the [Automatic baseline offset correction (ABOC) and forced compensation scheme (FCS)](./assets/component_documentation/Infineon-AN_FCS_ABOC_XENSIV_PASCO2_2-ApplicationNotes-v01_04-EN.pdf) application note for complete information about the calibration process. The graph below shows three sensors data outputs merge together during our calibration testing:
+
+<figure markdown>
+[![Sensor calibration graph.](./assets/images/Calibration_Graph.png){  width="400"}](./assets/images/Calibration_Graph.png "Click to enlarge")
+</figure>
 
 ## Installation Recommendations
 
-For ideal measurements, Infineon has several recommendations for installing the sensor in the final application found in this [application note](). The list below outlines most of them but for complete information, refer to the app note linked above.
+For ideal measurements, Infineon has several recommendations for installing the sensor in the final application found in this [application note](./assets/component_documentation/Infineon-PAS_CO2_General_Design-In_Guideline.docx.-ApplicationNotes-v01_02-EN.pdf). The list below outlines most of them but for complete information, refer to the app note linked above.
 
 * Allow space above the sensor at least 12mm tall with a minimum opening size of 14mm x 14mm.
 * Avoid direct airflow in front of the sensor.
