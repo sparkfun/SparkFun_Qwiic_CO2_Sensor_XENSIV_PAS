@@ -14,12 +14,12 @@ icon: material/book-open-page-variant
     ![Product Thumbnail](https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/1/8/1/22956_Photoacoustic_CO2_Sensor_Feature.jpg)
     </figure></a>
 
-<!--    <center>
+    <center>
     <article class="video_desc">
-    <iframe src="https://www.youtube.com/embed/4IqSEht6t1U" title="Product Showcase: SparkFun Photoacoustic Spectroscopy CO<sub>2</sub> Sensor - PASCO2V01 (Qwiic)" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://youtu.be/Du8RI4oUQT8?si=w0rP1W-pjiWIPvEG" title="Product Showcase: SparkFun Photoacoustic Spectroscopy CO<sub>2</sub> Sensor - PASCO2V01 (Qwiic)" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </article>
     </center>
--->
+
 -    The SparkFun Photoacoustic Spectroscopy CO<sub>2</sub> Sensor - PASCO2V01 (Qwiic) is a breakout using the XENSIV<sup>&trade;</sup> PAS CO2 sensor package from Infineon<sup>&copy;</sup> which measures highly-accurate CO<sub>2</sub> concentrations and outputs data in direct parts-per-million (ppm) format over I<sup>2</sup>C, UART and PWN. The PAS CO2 employs a photoacoustic spectroscopy measurement system that combines narrow-band filtered IR light and a highly sensitive microphone inside the sensing cavity. The PAS CO2 measures CO<sub>2</sub> concentrations from 0 to 32,000ppm with a best accuracy of &plusmn;(30ppm +3%) when reading between 400 and 5,000ppm. It also includes and integrated microcontroller that processes and converts the data into direct ppm readout over any of the three communication interfaces. 
     This board includes a boost circuit to increase a 3.3V supply from the Qwiic connectors (or external) to 12V for the IR emitter supply voltage. This circuit includes a series of decoupling capacitors to output a clean 12V. We've also broken out all of the pins from the PAS CO2 package to 0.1"-spaced PTH headers so users have full access to all of the sensor's features.
 
